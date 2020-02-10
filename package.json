@@ -1,0 +1,22 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "lab1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint **/*.js",
+    "start": "node",
+    "deploy": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petercole-401-advanced-javascript/notes.git"
+  },
+  "author": "Peter Cole",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petercole-401-advanced-javascript/notes/issues"
+  },
+  "homepage": "https://github.com/petercole-401-advanced-javascript/notes#readme"
+}
