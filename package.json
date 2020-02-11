@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "lab1",
   "main": "index.js",
+  "bin": {
+    "notes": "index.js"
+  },
   "scripts": {
     "test": "jest",
     "lint": "eslint **/*.js",
@@ -19,7 +22,10 @@
   },
   "homepage": "https://github.com/petercole-401-advanced-javascript/notes#readme",
   "dependencies": {
+    "eslint": "^6.8.0",
     "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "is-url": "^1.2.4",
     "minimist": "^1.2.0",
     "superagent": "^5.2.1"
   }
