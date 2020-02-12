@@ -1,19 +1,22 @@
-'use strict';
 
+// require files gonn use
 const Input = require('./lib/input.js');
-const notes = require('./lib/notes.js');
+const Notes = require('./lib/notes.js');
 
-const options = new Input();
+const input = new Input();
+const notes = new Notes(input);
 
-options.valid() ? notes.fetch(options) : help(); 
+// if valid input, do note stuff
+//    else, help message
 
+if (input.valid()) {
+  notes.execute();
+} else {
+  help();
+}
+
+// help message
 function help() {
-  console.log(`
-  notes USAGE: notes -a <add> -x <error?>
-        Body to send for printing
-        Enclosed in single quotes
-        JSON must be valid
-  `);
-
+  console.log('Help Message');
   process.exit();
 }
