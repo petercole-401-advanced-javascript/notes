@@ -28,7 +28,7 @@ Actual time needed to complete: 0:15
 
 ## 
 
-Number and name of feature: Lab 2 Take in a String that obeys rules & print  
+Number and name of feature: Lab 1 Take in a String that obeys rules & print  
 
 Estimate of time needed to complete: 4:00 
 
@@ -43,17 +43,47 @@ Actual time needed to complete: 4:15
 
 ## 
 
-Number and name of feature: Lab 3 Change all functions to classes  
+Number and name of feature: Lab 2 Change all functions to classes in Input and Notes  
 
-Estimate of time needed to complete: 4:00  
+Estimate of time needed to complete: 0:30  
 
 Start time: 3pm  
 
-Finish time: ____    
+Finish time: 4:58    
+
+Actual time needed to complete: 0:15  
+
+- 02-12-2020 5pm - classes work  
+
+## 
+
+Number and name of feature: Lab 2 Create a schema/rules set for both the Command object created by the Input class and the Note created by the Notes class  
+
+Estimate of time needed to complete: 0:30  
+
+Start time: 5pm  
+
+Finish time: 7pm  
+
+Actual time needed to complete: 2:00  
+
+- 02-12-2020 7pm - Classes work, schemas in place with mongoose
+
+## 
+
+Number and name of feature: Lab 2 Add validation to the Input and Notes Classes
+
+Estimate of time needed to complete: 2:00  
+
+Start time: 9pm  
+
+Finish time: ____  
 
 Actual time needed to complete: ____  
 
-- 02-12-2020 3pm -  
+- 02-12-2020 5pm - Classes work, schemas in place with mongoose
 
 ## Credits and Collaborations
-Used .gitignore, .eslintrc, .eslintignore from 401 config folder, and README design and MIT License from 301, grabbed some instructional text from canvas lab write up
+- Used .gitignore, .eslintrc, .eslintignore from 401 config folder, and README design and MIT License from 301, grabbed some instructional text from canvas lab write up
+- Dev friend Dano helped guide me in developing the schema and rules in lab 2
+
