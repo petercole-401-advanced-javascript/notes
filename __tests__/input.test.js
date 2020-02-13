@@ -16,7 +16,7 @@ describe('Input module', () => {
   // test the parseInput() functions
   it('parseInput() returns a properly formed object', () => {
     const options = new Input();
-    const command = options.parseInput({ a: 'this shoudl succed'});
+    const command = options.parseInput({ a: 'this should succed'});
     expect(command.action).toBeDefined();
     expect(command.payload).toBeDefined();
   });
