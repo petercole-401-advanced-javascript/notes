@@ -81,8 +81,6 @@ Finish time: ____
 
 Actual time needed to complete: ____  
 
-- 02-12-2020 5pm - Classes work, schemas in place with mongoose
-
 ## Credits and Collaborations
 - Used .gitignore, .eslintrc, .eslintignore from 401 config folder, and README design and MIT License from 301, grabbed some instructional text from canvas lab write up
 - Dev friend Dano helped guide me in developing the schema and rules in lab 2
