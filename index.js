@@ -17,7 +17,12 @@ const notes = new Notes(input);
 
 // Check for valid note, otherwise send error
 if (input.valid()){
-  notes.execute(input.command).then(mongoose.disconnect).catch(err => console.error('oops'));
+  notes.execute(input.command)
+    .then(mongoose.disconnect)
+    .catch(err => {
+      console.error('oops');
+      process.exit(); // cop out, check promises, makes sure they end
+    });
 } else {
   help();
 }

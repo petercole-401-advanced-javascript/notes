@@ -1,9 +1,10 @@
 
 const Input = require('../lib/input.js');
+const minimist = require('minimist');
 
 jest.mock('minimist');
 
-const minimist = require('minimist');
+// mock and toEqual
 // mock the user's haing inputed "node index.js -a 'this is a note' "
 
 minimist.mockImplementation(() => {
@@ -23,7 +24,7 @@ describe('Input module', () => {
 
   // test valid() functions
 
-  it('valid() respects a properly formed input', () => {
+  it('valid() accepts a properly formed input', () => {
     const options = new Input();
     // delete options.command;
     expect(options.valid()).toBeTruthy();
