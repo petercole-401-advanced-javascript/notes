@@ -71,7 +71,7 @@ Actual time needed to complete: 2:00
 
 ## 
 
-Number and name of feature: Lab 2 Add validation to the Input and Notes Classes
+Number and name of feature: Lab 2 Add validation to the Input and Notes Classess
 
 Estimate of time needed to complete: 2:00  
 
