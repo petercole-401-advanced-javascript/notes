@@ -27,7 +27,7 @@
     "faker": "^4.1.0",
     "is-url": "^1.2.4",
     "jest": "^25.1.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.2",
     "mongoose": "^5.8.12",
     "superagent": "^5.2.1"
   }
