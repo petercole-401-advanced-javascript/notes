@@ -4,20 +4,21 @@ const minimist = require('minimist');
 
 jest.mock('minimist');
 
-// mock and toEqual
+const minimist = require('minimist');
+
 // mock the user's haing inputed "node index.js -a 'this is a note' "
 
-minimist.mockImplementation(() => {
-  return {
-    a: 'this is a note',
-  };
-});
+minimist.mockImplementation((sda) => ({
+  a: 'this is a note',
+}));
 
 describe('Input module', () => {
   // test the parseInput() functions
   it('parseInput() returns a properly formed object', () => {
     const options = new Input();
-    const command = options.parse({ a: 'this shoudl succed'});
+
+    const command = options.parseInput({ a: 'this should succeed' });
+
     expect(command.action).toBeDefined();
     expect(command.payload).toBeDefined();
   });
@@ -29,7 +30,7 @@ describe('Input module', () => {
     // delete options.command;
     expect(options.valid()).toBeTruthy();
   });
-  
+
   it('valid() rejects a improperly formed input', () => {
     let options = new Input();
     // minimist.mockImplementation(() => {
