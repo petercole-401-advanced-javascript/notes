@@ -23,7 +23,7 @@
   "homepage": "https://github.com/petercole-401-advanced-javascript/notes#readme",
   "dependencies": {
     "eslint": "^6.8.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "faker": "^4.1.0",
     "is-url": "^1.2.4",
     "jest": "^25.1.0",
